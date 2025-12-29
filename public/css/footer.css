@@ -1,0 +1,155 @@
+ /* Footer Styles */
+ .footer {
+    background: #000;
+    color: #fff;
+    padding: 60px 0 0 0;
+}
+
+.footer-content {
+    padding-bottom: 40px;
+}
+
+/* Logo Section */
+.footer-logo {
+    margin-bottom: 25px;
+}
+
+.footer-logo img {
+    max-width: 200px;
+    height: auto;
+}
+
+.footer-logo h3 {
+    color: white;
+    font-size: 2rem;
+    font-weight: 300;
+    margin: 0;
+}
+
+.footer-description {
+    font-size: 14px;
+    line-height: 1.8;
+    color: #ccc;
+    max-width: 300px;
+}
+
+/* Footer Headings */
+.footer-heading {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #333;
+}
+
+/* Categories & Recent Posts Lists */
+.footer-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-list li {
+    margin-bottom: 12px;
+}
+
+.footer-list a {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 14px;
+    transition: all 0.3s;
+    display: inline-block;
+}
+
+.footer-list a:hover {
+    color: #fff;
+    padding-left: 5px;
+}
+
+.category-count {
+    color: #999;
+    font-size: 13px;
+}
+
+/* Gallery Grid */
+.footer-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.gallery-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+    aspect-ratio: 1;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.1);
+}
+
+/* Footer Bottom */
+.footer-bottom {
+    background: #000;
+    border-top: 1px solid #222;
+    padding: 25px 0;
+}
+
+.footer-bottom-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    color: #999;
+}
+
+.footer-bottom a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.footer-bottom a:hover {
+    color: #fff;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+    .footer-gallery {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .footer {
+        padding: 40px 0 0 0;
+    }
+
+    .footer-content > div {
+        margin-bottom: 40px;
+    }
+
+    .footer-bottom-content {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .footer-description {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .footer-gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

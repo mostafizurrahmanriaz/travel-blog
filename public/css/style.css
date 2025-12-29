@@ -1,0 +1,340 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif, arial;
+    color: #333;
+}
+
+
+
+/* Navigation */
+.navbar {
+    background: transparent !important;
+    padding: 20px 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar-nav {
+    margin: 0 auto;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 0 20px;
+    text-transform: uppercase;
+    transition: all 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    opacity: 0.8;
+}
+
+.search-icon {
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+/* Hero Content */
+.hero-title {
+    font-size: 4.5rem;
+    font-weight: 300;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.hero-subtitle {
+    font-size: 1.1rem;
+    font-weight: 300;
+    margin-bottom: 50px;
+    font-style: italic;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.btn-explore, .btn-journies {
+    padding: 12px 40px;
+    border: 2px solid white;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.btn-explore {
+    background: white;
+    color: #333;
+}
+
+.btn-explore:hover {
+    background: transparent;
+    color: white;
+}
+
+.btn-journies {
+    background: transparent;
+    color: white;
+}
+
+.btn-journies:hover {
+    background: white;
+    color: #333;
+}
+
+/* Info Section */
+.info-section {
+    background: white;
+    padding: 60px 0;
+    margin-top: -80px;
+    position: relative;
+    z-index: 10;
+}
+
+.info-box {
+    background: white;
+    padding: 50px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.info-title {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.info-text {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #666;
+}
+
+/* Blog Section */
+.blog-section {
+    padding: 60px 0;
+    background: #f8f9fa;
+}
+
+/* Date Badge */
+.date-badge {
+    position: absolute;
+    /* top: 20px;
+    left: 20px; */
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    z-index: 10;
+}
+
+.date-badge .month {
+    font-size: 11px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+}
+
+.date-badge .day {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1;
+    margin-bottom: 5px;
+}
+
+.date-badge .year {
+    font-size: 11px;
+}
+
+/* Blog Card */
+.blog-card {
+    background: white;
+    margin-bottom: 40px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    transition: all 0.3s;
+    position: relative;
+    overflow: hidden;
+}
+
+.blog-card:hover {
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+    transform: translateY(-5px);
+}
+
+.blog-card-img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.blog-card-body {
+    padding: 30px;
+}
+
+.blog-card-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.blog-card-meta {
+    font-size: 11px;
+    color: #999;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.blog-card-meta a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.blog-card-text {
+    font-size: 14px;
+    line-height: 1.8;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.read-more {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 13px;
+    transition: all 0.3s;
+}
+
+.read-more:hover {
+    color: #0056b3;
+}
+
+/* Sidebar */
+.sidebar-widget {
+    background: white;
+    padding: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.widget-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 25px;
+    color: #333;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #f0f0f0;
+}
+
+/* Search Box */
+.search-widget {
+    position: relative;
+}
+
+.search-widget input {
+    width: 100%;
+    padding: 12px 50px 12px 15px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+}
+
+.search-widget button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 50px;
+    border: none;
+    background: transparent;
+    color: #666;
+    cursor: pointer;
+}
+
+/* Widget Lists */
+.widget-list {
+    list-style: none;
+    padding: 0;
+}
+
+.widget-list li {
+    padding: 12px 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.widget-list li:last-child {
+    border-bottom: none;
+}
+
+.widget-list a {
+    color: #333;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+.widget-list a:hover {
+    color: #007bff;
+}
+
+.category-count {
+    float: right;
+    color: #999;
+    font-size: 13px;
+}
+
+/* Grid Layout for Blog Cards */
+.blog-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+    .blog-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 2.5rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1rem;
+    }
+
+    .navbar-nav .nav-link {
+        margin: 10px 0;
+    }
+
+    .info-box {
+        padding: 30px 20px;
+    }
+
+    .date-badge {
+        padding: 10px 15px;
+    }
+
+    .date-badge .day {
+        font-size: 28px;
+    }
+}

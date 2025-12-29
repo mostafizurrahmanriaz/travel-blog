@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Mr. Harshed",
+        "bio": "A passionate travel writer who documents real-world journeys, local cultures, and hidden destinations. Focused on practical travel tips, authentic experiences, and inspiring readers to explore beyond the usual routes.",
+        "photo": "harshed.jpeg"
+    },
+    {
+        "name": "Mr. David",
+        "bio": "A travel blogger dedicated to sharing honest reviews, itineraries, and travel insights. Combines personal experiences with useful guidance to help readers travel confidently and responsibly.",
+        "photo": "david.jpeg"
+    },
+    {
+        "name": "Willian",
+        "bio": "An explorer at heart, sharing stories about travel, food, and culture from different regions. Writes experience-based content to help travelers plan smarter trips and understand destinations more deeply.",
+        "photo": "willian.jpg"
+    }
+]

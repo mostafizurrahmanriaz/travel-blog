@@ -25,6 +25,7 @@ Shows the latest 5 travel posts with pagination for browsing older content.
 
 ![Homepage Screenshot](screenshots/homepage-1.png)
 ![Homepage Screenshot](screenshots/homepage-2.png)
+![Homepage Screenshot](screenshots/homepage-3.png)
 
 ### Category Page
 Displays all blog posts under a selected category such as Asia, Africa, America, or Europe.

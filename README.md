@@ -6,6 +6,16 @@ Travel Blog is a web-based blogging platform built with Laravel where users can 
 This project was created to practice Laravel fundamentals while building a practical and realistic blog application.
 
 
+
+## Live Demo
+
+You can explore the live version of this project here:
+
+🔗 **Live Website:** https://your-live-site-link.com
+
+This live demo allows you to browse posts, filter by categories, view author pages, and experience the full functionality of the Travel Blog.
+
+
 ## 📸 Screenshots
 
 Below are some screenshots of the Travel Blog application to give an overview of the user interface and main features.

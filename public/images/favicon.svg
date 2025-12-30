@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+  <!-- Sun -->
+  <circle cx="18" cy="6" r="3" fill="#FDB813"></circle>
+
+  <!-- Mountains -->
+  <path d="M3 20L10 8L17 20H3Z" fill="#2F855A"></path>
+  <path d="M9 20L14 12L21 20H9Z" fill="#276749"></path>
+</svg>

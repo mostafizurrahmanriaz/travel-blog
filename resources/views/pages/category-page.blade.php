@@ -6,11 +6,7 @@
 @endpush
 
 
-{{-- @php
-    foreach ($blogs as $blog) {
-      $first_blog = $blog;
-    }
-@endphp --}}
+
 
 @push('hero-section')
     <style>

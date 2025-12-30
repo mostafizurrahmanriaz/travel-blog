@@ -6,6 +6,7 @@
     <title>WanderSphere Travel Blog</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/svg+xml" href="../../images/favicon.svg">
     @stack('main-style')
     @stack('hero-section')
     @stack('single-blog')
@@ -60,7 +61,7 @@
                 <!-- Logo & Description -->
                 <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
                     <div class="footer-logo">
-                        <h3><i class="fas fa-mountain"></i> WanderSphere</h3>
+                        <h3><img src="/images/favicon.svg" width="40" alt=""> WanderSphere</h3>
                     </div>
                     <p class="footer-description">
                         Sharing travel experiences, hidden gems, and iconic places.

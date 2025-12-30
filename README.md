@@ -13,22 +13,26 @@ Below are some screenshots of the Travel Blog application to give an overview of
 ### Homepage
 Shows the latest 5 travel posts with pagination for browsing older content.
 
-![Homepage Screenshot](screenshots/homepage.png)
+![Homepage Screenshot](screenshots/homepage-1.png)
+![Homepage Screenshot](screenshots/homepage-2.png)
 
 ### Category Page
 Displays all blog posts under a selected category such as Asia, Africa, America, or Europe.
 
-![Category Page Screenshot](screenshots/category.png)
+![Category Page Screenshot](screenshots/category-1.png)
+![Category Page Screenshot](screenshots/category-2.png)
 
 ### Blog Details Page
 Shows the full blog content along with author information and related navigation.
 
-![Blog Details Screenshot](screenshots/blog-details.png)
+![Blog Details Screenshot](screenshots/blog_details-1.png)
+![Blog Details Screenshot](screenshots/blog_details-2.png)
 
 ### Author Page
 Displays all posts written by a specific author along with post count.
 
-![Author Page Screenshot](screenshots/author-page.png)
+![Author Page Screenshot](screenshots/authorpage-1.png)
+![Author Page Screenshot](screenshots/authorpage-2.png)
 
 
 ## Features
@@ -125,22 +129,15 @@ Click on an author’s name to see all posts written by that author
 
 ## 📂 Project Structure
 
-app/
- ├── Http/
- │    ├── Controllers/
- │    ├── Requests/
- ├── Models/
-resources/
- ├── views/
-      ___ pages/
- │    ├── home.blade.php
-routes/
- ├── web.php
-public/
- ├── css/
- ├── js/
- |__ images/
+app/ – Models, controllers, and core application logic
 
+routes/ – Web routes for the application
+
+resources/views/ – Blade templates for UI
+
+database/ – Migrations and seeders
+
+public/ – Public assets such as CSS and images
 
 ## Future Improvements
 
